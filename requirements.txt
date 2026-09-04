@@ -1,0 +1,16 @@
+# Data Preprocessing & Analytics
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+
+# Machine Learning & Deep Learning
+torch==2.2.0
+shap==0.44.1
+
+# Web Framework & API
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+
+# HTTP Client for Fetching Data
+requests==2.31.0
