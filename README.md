@@ -1,3 +1,5 @@
+<img src="./asset/dashboard_ui.png" alt="SkyGuard Dashboard UI" style="width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px;" />
+
 # SkyGuard AI: Intelligent Real-Time Anomaly Detection System for Automatic Weather Stations (AWS)
 
 ![SIH 2026](https://img.shields.io/badge/SIH-2026-blue)
@@ -17,22 +19,20 @@
 
 ## 🎨 Dashboard Preview
 
-![SkyGuard Dashboard UI](./asset/dashboard_ui.png)
-
 *Live dashboard showcasing real-time anomaly detection, sensor health scores, and active weather alerts*
 
 ---
 
 ## 📌 Executive Summary
 
-Automatic Weather Stations (AWS) are critical components of modern meteorological observation networks. However, weather data streams often suffer from sensor spikes, calibration drift, frozen values, and instrumental faults that compromise data quality.
+Automatic Weather Stations (AWS) are critical components of modern meteorological observation networks. However, weather data streams often suffer from sensor spikes, calibration drift, frozen values,[...]
 
 **SkyGuard AI** is a multi-layer AI/ML platform engineered to monitor real-time weather parameters using **strictly three inputs**:
 1. **Temperature (°C)**
 2. **Atmospheric Pressure (hPa)**
 3. **Relative Humidity (%)**
 
-By evaluating temporal patterns, multivariate correlations, and spatial neighbor consistency, SkyGuard AI reliably distinguishes genuine extreme weather events from hardware sensor faults while generating actionable maintenance alerts for meteorological operators.
+By evaluating temporal patterns, multivariate correlations, and spatial neighbor consistency, SkyGuard AI reliably distinguishes genuine extreme weather events from hardware sensor faults while genera[...]
 
 ---
 
