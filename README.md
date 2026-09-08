@@ -341,24 +341,6 @@ Once the backend is running, visit:
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Run unit tests
-pytest tests/unit -v
-
-# Run integration tests
-pytest tests/integration -v
-
-# Generate coverage report
-pytest --cov=app tests/
-
-# Test with pre-trained models
-python scripts/test_models.py --dataset tests/fixtures/synthetic_faults.csv
-```
-
----
-
 ## 📚 Documentation
 
 - [Model Architecture Details](./docs/MODEL_ARCHITECTURE.md)
@@ -374,13 +356,6 @@ python scripts/test_models.py --dataset tests/fixtures/synthetic_faults.csv
 **Problem Statement ID:** SIH26073  
 **Event:** Smart India Hackathon 2026  
 **Team Name:** Algo Vizards
-
-### Team Members
-- **Project Lead / Backend Developer:**
-- **Full-Stack Developer (Frontend & Integration):**
-- **ML Engineer (Model Research & Training):**
-- **DevOps & Deployment Engineer:**
-- **UI/UX Designer & Frontend Specialist:**
 
 *For more details about the team and contributions, see [TEAM.md](./TEAM.md)*
 
