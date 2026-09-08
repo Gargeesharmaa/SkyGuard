@@ -15,6 +15,14 @@
 
 ---
 
+## 🎨 Dashboard Preview
+
+![SkyGuard Dashboard UI](./assets/dashboard_ui.png)
+
+*Live dashboard showcasing real-time anomaly detection, sensor health scores, and active weather alerts*
+
+---
+
 ## 📌 Executive Summary
 
 Automatic Weather Stations (AWS) are critical components of modern meteorological observation networks. However, weather data streams often suffer from sensor spikes, calibration drift, frozen values, and instrumental faults that compromise data quality.
