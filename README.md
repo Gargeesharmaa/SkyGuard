@@ -1,4 +1,3 @@
-<img src="./asset/dashboard_ui.png" alt="SkyGuard Dashboard UI" style="width: 100%; max-width: 1200px; border-radius: 8px; margin-bottom: 20px;" />
 
 # SkyGuard AI: Intelligent Real-Time Anomaly Detection System for Automatic Weather Stations (AWS)
 
@@ -14,12 +13,6 @@
 > **Organization:** Ministry of Earth Sciences (MoES) / India Meteorological Department (IMD)  
 > **Category:** Software | **Theme:** Disaster Management  
 > **Team Name:** Algo Vizards
-
----
-
-## 🎨 Dashboard Preview
-
-*Live dashboard showcasing real-time anomaly detection, sensor health scores, and active weather alerts*
 
 ---
 
