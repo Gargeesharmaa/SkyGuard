@@ -17,7 +17,7 @@
 
 ## 🎨 Dashboard Preview
 
-![SkyGuard Dashboard UI](./assets/dashboard_ui.png)
+![SkyGuard Dashboard UI](./asset/dashboard_ui.png)
 
 *Live dashboard showcasing real-time anomaly detection, sensor health scores, and active weather alerts*
 
