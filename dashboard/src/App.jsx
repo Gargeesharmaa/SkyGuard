@@ -32,25 +32,52 @@ export default function App() {
   }, []);
 
   // Simulation Trigger for Demonstrations / Presentations
-  const triggerSimulatedAnomaly = () => {
-    const fakeAnomaly = {
+ // Dynamic Simulation Generator for Testing Various Fault Types
+const triggerSimulatedAnomaly = () => {
+  // Preset fault scenarios for realistic presentation testing
+  const faultScenarios = [
+    {
       station_id: "AWS-104",
-      timestamp: new Date().toISOString(),
-      metrics: {
-        temperature: 55.2,
-        pressure: 980.5,
-        humidity: 98.0,
-      },
-      anomaly_detected: true,
       fault_type: "Temperature Spike & Sensor Drift",
+      metrics: { temperature: 55.2, pressure: 980.5, humidity: 98.0 },
       health_score: 38,
       recommended_action: "Inspect / Calibrate Temperature Sensor",
-    };
+    },
+    {
+      station_id: "AWS-108",
+      fault_type: "Frozen Sensor Value (Zero Variance)",
+      metrics: { temperature: 24.0, pressure: 1013.2, humidity: 50.0 },
+      health_score: 62,
+      recommended_action: "Reset AWS Transducer & Clear Data Buffer",
+    },
+    {
+      station_id: "AWS-201",
+      fault_type: "Pressure Drop (Multivariate Inconsistency)",
+      metrics: { temperature: 42.1, pressure: 890.0, humidity: 12.0 },
+      health_score: 24,
+      recommended_action: "Verify Barometric Sensor Wiring & Power Input",
+    },
+    {
+      station_id: "AWS-112",
+      fault_type: "Communication Line Noise / High Rate of Change",
+      metrics: { temperature: -15.4, pressure: 1050.8, humidity: 100.0 },
+      health_score: 15,
+      recommended_action: "Replace Communication Interface Module",
+    },
+  ];
 
-    setCurrentReadings(fakeAnomaly.metrics);
-    setAlerts((prev) => [fakeAnomaly, ...prev.slice(0, 9)]);
+  // Pick a random fault scenario from the list
+  const randomScenario = faultScenarios[Math.floor(Math.random() * faultScenarios.length)];
+  
+  const alertData = {
+    ...randomScenario,
+    timestamp: new Date().toISOString(),
+    anomaly_detected: true,
   };
 
+  setCurrentReadings(alertData.metrics);
+  setAlerts((prev) => [alertData, ...prev.slice(0, 9)]);
+};
   return (
     <div className="min-h-screen bg-gray-950 text-white p-6 max-w-7xl mx-auto font-sans">
       {/* Header */}
