@@ -381,8 +381,3 @@ We welcome contributions! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for gu
 - **Iowa Environmental Mesonet** for ASOS validation datasets
 - **PyTorch & scikit-learn** communities for excellent ML libraries
 - **Smart India Hackathon** for the opportunity to innovate in disaster management
-
----
-
-**Last Updated:** September 2026  
-**Version:** 1.0.0-beta
